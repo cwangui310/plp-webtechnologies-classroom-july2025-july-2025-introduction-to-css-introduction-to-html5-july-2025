@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
+.myselfie {
+    width: 200px;
+    height: 200px;
+     object-fit: contain;
+     object-position: left;
+     border-width: 2px;
+     border-style: double;
+     margin-top: 40px;
+}
+ .search-bar{
+        font-size: 16px;
+        margin-left: 15px;
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: block;
+        width: 100px;
+     }
+
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <div class="container">
+    <input class="search-bar"  type="text" placeholder="search">
+  
+    <img src="FB_IMG_15487321862949229.jpg" alt="Smily me" class="myselfie">
+      </div>
+    
+</body>
+</html>
